@@ -1,0 +1,41 @@
+life = 1500
+sprite = 0
+points = 5000
+
+patterns
+begin
+end
+
+actions
+begin
+	move 300 200 400
+	wait 6000
+	move 300 -150 80
+	die
+end
+
+orbits
+begin
+	orbit 0 120 60 clk ../stages/orbit02Enemy.txt
+	orbit 45 120 60 clk ../stages/orbit02Enemy.txt
+	orbit 90 120 60 clk ../stages/orbit02Enemy.txt
+	orbit 135 120 60 clk ../stages/orbit02Enemy.txt
+	orbit 180 120 60 clk ../stages/orbit02Enemy.txt
+	orbit 225 120 60 clk ../stages/orbit02Enemy.txt
+	orbit 270 120 60 clk ../stages/orbit02Enemy.txt
+	orbit 315 120 60 clk ../stages/orbit02Enemy.txt
+	orbit 0 120 35 aclk ../stages/orbit03Enemy.txt
+	orbit 45 120 35 aclk ../stages/orbit03Enemy.txt
+	orbit 90 120 35 aclk ../stages/orbit03Enemy.txt
+	orbit 135 120 35 aclk ../stages/orbit03Enemy.txt
+	orbit 180 120 35 aclk ../stages/orbit03Enemy.txt
+	orbit 225 120 35 aclk ../stages/orbit03Enemy.txt
+	orbit 270 120 35 aclk ../stages/orbit03Enemy.txt
+	orbit 315 120 35 aclk ../stages/orbit03Enemy.txt
+end
+
+drops
+begin
+	bomb
+	upgrade 10
+end

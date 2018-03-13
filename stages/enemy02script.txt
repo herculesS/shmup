@@ -1,0 +1,22 @@
+life = 1
+sprite = 0
+points = 100
+
+patterns
+begin
+	pattern spread 1 230 200 10 3 0 circular
+end
+
+actions
+begin
+	move 20 20 150
+	shoot
+	move 400 50 170
+	wait 1000
+	move 500 -200 140
+	die
+end
+
+drops
+begin
+end

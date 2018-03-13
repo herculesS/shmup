@@ -1,0 +1,30 @@
+life = 200
+sprite = 0
+points = 1000
+
+patterns
+begin
+end
+
+actions
+begin
+	move 50 0 60
+	move 100 150 60
+	move 450 150 60
+	wait 2000
+	move 500 0 60
+	move 500 -200 60
+	die
+end
+
+orbits
+begin
+	orbit 0 70 35 clk ../stages/orbitEnemy.txt
+	orbit 240 70 55 aclk ../stages/orbitEnemy.txt
+end
+
+drops
+begin
+	laser
+	upgrade 1
+end

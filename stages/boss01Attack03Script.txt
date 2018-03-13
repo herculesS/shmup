@@ -1,0 +1,57 @@
+life = 6000
+sprite = 0
+points = 10000
+
+patterns
+begin
+	pattern flower 2 300 200 10 300 clk 1 circular
+	pattern flower 2 300 120 10 300 clk 2 circular
+end
+
+actions
+begin
+	move 300 100 100
+	shoot
+	wait 2000
+	stopshooting
+	move 150 150 460
+	move 300 100 100
+	shoot
+	wait 2000
+	stopshooting
+	move 150 150 460
+	move 300 100 100
+	shoot
+	wait 2000
+	stopshooting
+	movestraight 600 500
+	move 1000 800 500
+	move 1000 -300 500
+	move 300 100 100
+	shoot
+	wait 2000
+	stopshooting
+	move 150 150 460
+	shoot
+	wait 2000
+	move 150 150 460
+end
+
+orbits
+begin
+	orbit 71 0 152 clk ../stages/bossOrbit01.txt
+	orbit 108 0 152 clk ../stages/bossOrbit01.txt
+	orbit 143 0 202 clk ../stages/bossOrbit01.txt
+	orbit 37 0 202 clk ../stages/bossOrbit01.txt
+	orbit 120 70 35 clk ../stages/orbitEnemy.txt
+	orbit 240 70 35 clk ../stages/orbitEnemy.txt
+	orbit 0 70 55 aclk ../stages/orbitEnemy.txt
+	orbit 120 70 55 aclk ../stages/orbitEnemy.txt
+	orbit 240 70 55 aclk ../stages/orbitEnemy.txt
+end
+
+drops
+begin
+	laser
+	upgrade 3
+end

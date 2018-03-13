@@ -1,0 +1,17 @@
+life = 150
+sprite = 0
+points = 500
+
+patterns
+begin
+	pattern spread 5 150 800 45 15 1 rectangular
+end
+
+actions
+begin
+	move 50 50 60
+	shoot
+	move 400 50 70
+	move 500 -200 600
+	die
+end

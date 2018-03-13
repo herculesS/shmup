@@ -1,0 +1,28 @@
+life = 500
+sprite = 0
+points = 100
+
+patterns
+begin
+	pattern Spread 1 70 800 15 15 2 circular
+	pattern Spread 2 80 800 15 15 2 circular
+	pattern Spread 1 90 800 15 15 2 circular
+	pattern Spread 2 100 800 15 15 2 circular
+	pattern Spread 1 110 800 15 15 2 circular
+	pattern Spread 2 120 800 15 15 2 circular
+	pattern Spread 1 130 800 15 15 2 circular
+end
+
+actions
+begin
+	movestraight 150 120
+	shoot
+	wait 1000
+	movestraight -200 120
+	die
+end
+
+drops
+begin
+	upgrade 3
+end

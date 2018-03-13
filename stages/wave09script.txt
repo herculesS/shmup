@@ -1,0 +1,19 @@
+wave
+begin
+	../stages/enemy02script.txt 50 -100 1000
+	../stages/enemy02script.txt 50 -100 1300
+	../stages/enemy02script.txt 50 -100 1600
+	../stages/enemy02script.txt 50 -100 1900
+	../stages/enemy02script.txt 50 -100 2100
+	../stages/enemy02script.txt 50 -100 2400
+	../stages/enemy02script.txt 50 -100 2700
+	../stages/enemy02script.txt 50 -100 4000
+	../stages/enemy11script.txt 50 -100 4000
+	../stages/enemy12script.txt 50 -100 1500
+	../stages/enemy12script.txt 50 -100 2500
+	../stages/enemy12script.txt 50 -100 3500
+	../stages/enemy12script.txt 50 -100 5000
+	../stages/enemy13script.txt 50 -100 0000
+	../stages/enemy13script.txt 50 -100 1000
+	../stages/enemy13script.txt 50 -100 4000
+end

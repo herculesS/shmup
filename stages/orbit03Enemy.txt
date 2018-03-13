@@ -1,0 +1,14 @@
+life = 30
+sprite = 3
+points = 5
+
+patterns
+begin
+	pattern Burst 3 90 300 3 3 circular
+end
+
+actions
+begin
+	wait 12000
+	shoot
+end

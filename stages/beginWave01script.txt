@@ -1,0 +1,16 @@
+wave
+begin
+	../stages/enemy00script.txt 177 -100 5000
+	../stages/enemy00script.txt 177 -100 5500
+	../stages/enemy00script.txt 177 -100 6000
+	../stages/enemy00script.txt 177 -100 6500
+	../stages/enemy00script.txt 177 -100 7000
+	../stages/enemy00script.txt 177 -100 7500
+	../stages/enemy00script.txt 177 -100 8000
+	../stages/enemy00script.txt 177 -100 8500
+	../stages/enemy00script.txt 177 -100 9000
+	../stages/enemy00script.txt 177 -100 9500
+	../stages/enemy00script.txt 177 -100 12000
+	../stages/enemy00script.txt 177 -100 11000
+	../stages/enemy02script.txt 177 -100 11000
+end

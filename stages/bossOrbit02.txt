@@ -1,0 +1,34 @@
+life = 30
+sprite = 4
+points = 5
+
+patterns
+begin
+	pattern flower 2 300 100 40 1 clk 2 circular
+end
+
+actions
+begin
+	wait 3000
+	shoot
+	wait 1000
+	stopshooting
+	wait 3000
+	add flower 2 300 100 40 1 aclk 3 circular
+	shoot
+	wait 2000
+	stopshooting
+	wait 7000
+	add flower 2 300 100 40 1 clk 2 circular
+	shoot
+	wait 2000
+	stopshooting
+	wait 7000
+	add flower 2 300 100 40 1 aclk 3 circular
+	shoot
+	wait 2000
+	stopshooting
+	wait 7000
+	add flower 2 300 100 40 1 clk 2 circular
+	shoot
+end

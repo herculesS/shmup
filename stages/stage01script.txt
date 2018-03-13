@@ -1,0 +1,22 @@
+stage
+begin
+	../stages/beginWave01script.txt
+	../stages/beginWave01script.txt
+	../stages/beginWave02script.txt
+	../stages/wave07script.txt
+	../stages/beginWave02script.txt
+	../stages/wave07script.txt
+	../stages/beginWave02script.txt
+	../stages/wave08script.txt
+	transition 1 2 2 2
+	../stages/wave09script.txt
+	../stages/wave01script.txt
+	../stages/wave02script.txt
+	../stages/wave01script.txt
+	../stages/wave02script.txt
+	../stages/wave06script.txt
+	../stages/wave04script.txt
+	../stages/wave03script.txt
+	../stages/wave05script.txt
+	transition 3 4 4 4
+end

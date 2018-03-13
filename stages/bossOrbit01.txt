@@ -1,0 +1,14 @@
+life = 30
+sprite = 4
+points = 5
+
+patterns
+begin
+	pattern Spread 1 90 800 15 150 3 circular
+end
+
+actions
+begin
+	wait 12000
+	shoot
+end

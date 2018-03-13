@@ -1,0 +1,39 @@
+life = 6000
+sprite = 0
+points = 10000
+
+patterns
+begin
+	pattern Spread 1 80 2000 15 150 2 circular
+	pattern Spread 2 80 2000 15 150 2 circular
+	pattern Spread 1 100 2000 15 150 2 circular
+	pattern Spread 2 110 2000 15 150 2 circular
+	pattern Spread 1 120 2000 15 150 2 circular
+	pattern Spread 2 130 2000 15 150 2 circular
+	pattern Spread 1 140 2000 15 150 2 circular
+	pattern Spread 2 150 2000 15 150 2 circular
+	pattern Spread 1 160 2000 15 150 2 circular
+	pattern Spread 2 170 2000 15 150 2 circular
+	pattern Spread 1 180 2000 15 150 2 circular
+end
+
+actions
+begin
+	move 300 100 100
+	shoot
+	wait 2000
+end
+
+orbits
+begin
+	orbit 71 0 152 clk ../stages/bossOrbit02.txt
+	orbit 108 0 152 clk ../stages/bossOrbit02.txt
+	orbit 143 0 202 clk ../stages/bossOrbit02.txt
+	orbit 37 0 202 clk ../stages/bossOrbit02.txt
+end
+
+drops
+begin
+	laser
+	upgrade 3
+end

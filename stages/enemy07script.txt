@@ -1,0 +1,22 @@
+life = 300
+sprite = 0
+points = 100
+
+patterns
+begin
+	pattern Flower 12 120 130 5 10 aclk 3 circular 
+end
+
+actions
+begin
+	shoot
+	move 100 150 600
+	wait 1000
+	move 700 150 80
+	die
+end
+
+drops
+begin
+	upgrade 5
+end

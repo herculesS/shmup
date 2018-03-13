@@ -1,0 +1,28 @@
+life = 1
+sprite = 0
+points = 10
+
+patterns
+begin
+end
+
+actions
+begin
+	move 177 192 300 		
+	move 123 192 300	
+	move 101 142 300
+	move 137 102 300
+	move 189 119 300
+	move 195 173 300
+	move 148 200 300
+	movestraight 700 300
+	die
+end
+
+orbits
+begin
+end
+
+drops
+begin
+end

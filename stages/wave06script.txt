@@ -1,0 +1,9 @@
+wave
+begin
+	../stages/enemy10script.txt 50 -100 1000
+	../stages/enemy10script.txt 150 -100 2000
+	../stages/enemy10script.txt 250 -100 3000
+	../stages/enemy10script.txt 350 -100 4000
+	../stages/enemy10script.txt 450 -100 5000
+	../stages/enemy10script.txt 550 -100 6000
+end

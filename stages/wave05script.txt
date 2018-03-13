@@ -1,0 +1,4 @@
+wave
+begin
+	../stages/enemy08script.txt 300 -100 2000
+end

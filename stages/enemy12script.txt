@@ -1,0 +1,25 @@
+life = 60
+sprite = 1
+points = 100
+
+patterns
+begin
+	pattern spread 1 230 200 10 3 0 rectangular
+end
+
+actions
+begin
+	move 120 20 200
+	move 400 50 200
+	shoot
+	wait 1000
+	add Burst 3 120 100 1 2 circular
+	add Burst 6 180 500 2 2 circular
+	wait 2000
+	move 300 -200 200
+	die
+end
+
+drops
+begin
+end

@@ -1,0 +1,25 @@
+life = 500
+sprite = 0
+points = 5000
+
+patterns
+begin
+	pattern flower 3 300 200 15 30 clk 0 rectangular
+	pattern flower 3 200 200 15 30 aclk 0 rectangular
+end
+
+actions
+begin
+	move 100 100 60
+	shoot
+	move 350 400 20
+	stopshooting
+	move 500 -200 600
+	die
+end
+
+drops
+begin
+	spread
+	upgrade 10
+end
